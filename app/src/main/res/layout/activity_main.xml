@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Form"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/eid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"/>
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Student name"/>
+    <EditText
+        android:id="@+id/edepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Student department"/>
+    <EditText
+        android:id="@+id/ephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"/>
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"/>
+    <Button
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Read"/>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Update"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Delete"/>
+</LinearLayout>
